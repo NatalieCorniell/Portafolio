@@ -1109,3 +1109,132 @@ border: 1 !important;
     padding-right: 20px 15px;
   }
 }
+
+
+/* =========================
+   TECHNOLOGIES
+========================= */
+
+.technologies-section {
+  margin-top: 55px;
+}
+
+.technologies-section .section-title {
+  margin-bottom: 30px;
+}
+
+.technologies-section .section-title h2 {
+  margin-bottom: 10px;
+}
+
+.technologies-section .section-title p {
+  color: #777;
+  font-size: 15px;
+}
+
+
+/* Technology Card */
+
+.tech-card {
+  height: 100%;
+  padding: 25px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 14px;
+
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+
+  transition: all 0.3s ease;
+}
+
+.tech-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Icon */
+
+.tech-icon {
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+
+  background: #f4f4f4;
+
+  font-size: 21px;
+}
+
+
+/* Content */
+
+.tech-content {
+  flex: 1;
+}
+
+.tech-content h4 {
+  margin: 2px 0 14px;
+
+  font-size: 17px;
+  font-weight: 600;
+
+  color: #173b6c;
+}
+
+
+/* Technology badges */
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.tech-list span {
+  display: inline-block;
+
+  padding: 6px 10px;
+
+  background: #f7f7f7;
+  border-radius: 6px;
+
+  font-size: 12px;
+  line-height: 1.2;
+
+  color: #555;
+
+  transition: all 0.2s ease;
+}
+
+.tech-list span:hover {
+  background: #e9e9e9;
+}
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+
+  .technologies-section {
+    margin-top: 40px;
+  }
+
+  .tech-card {
+    padding: 20px;
+  }
+
+  .tech-icon {
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+  }
+
+}
